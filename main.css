@@ -1,0 +1,25 @@
+html{
+    font-size: 20px;
+}
+body{
+    background-color: black;
+    color:white;
+    margin-top: 20px;
+    box-sizing: inherit;
+
+}
+h1{
+    background-color: rgb(237, 38, 38);
+}
+a{
+    color: rgb(144, 164, 238);
+
+}
+section{
+    background-color: rgb(1, 1, 1);
+
+}
+hr{
+    background-color: white;
+    
+}

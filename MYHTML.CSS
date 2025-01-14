@@ -115,7 +115,8 @@ a:hover::after{
 
 }
 .s2im2{
-    width: 85%;
+    width: 179%;
+    height: 0px;
 
 
 
@@ -256,9 +257,28 @@ h3{
 
 
 }
+.section3{
+    margin-left: 200px;
+}
 .h2{
     margin-left: 220px;
 }
+.s3h1{
+    margin-top: 70px;
+}
+.s3p1{
+    font-weight: bold;
 
 
- 
+}
+.more{
+    margin-top: 40px;
+    font-weight: bolder;
+    border: 20px;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    font-size: x-large;
+}

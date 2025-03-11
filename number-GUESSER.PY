@@ -27,5 +27,3 @@ while True:
         print('Please type a number next time')
     
 print('You got it',guesses,'times')
-
-

@@ -59,3 +59,22 @@ class String:
         return reverse
 text1 = String('ABC')
 print(text1.reversing())
+
+#Palindrome string
+
+def palindrome(text):
+    stack = deque()
+    palind = ''
+    for letter in text:
+        stack.appendleft(letter)
+    for l in range(len(stack)):
+        palind += stack.popleft()
+    if palind.lower() == text.lower():
+        return 'Palindrome'
+    else:
+        return 'Not a Palindrome'
+# print(palindrome('racecaRy'))
+
+def parenthesis_matcher(st):
+    for bracket in st:
+        

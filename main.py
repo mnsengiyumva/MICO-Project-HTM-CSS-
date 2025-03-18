@@ -29,8 +29,25 @@ print(text1)
 #descrypting a message
 
 #cipher_message = input('Enter the message you want to descrypt: ')
-
-
+from collections  import deque
+class Stack:
+    def __init__(self):
+        self.dq = deque()
+    def push(self,item):
+        self.dq.append(item)
+    def pop(self):
+        return self.dq.pop()
+    def peek(self):
+        return self.dq[-1]
+    def __len__(self):
+        return len(self.dq)
+def reverse(strng):
+    stack = Stack()
+    for char in strng:
+        stack.push(char)
+    rev = ''
+    for l in range(len(stack)):
+        rev += stack.pop()
 
 
 

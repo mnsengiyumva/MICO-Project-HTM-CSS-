@@ -27,3 +27,28 @@ while True:
         print('Please type a number next time')
     
 print('You got it',guesses,'times')
+
+
+#Recursion permutation of a word
+
+def permute(text):
+    if len(text) == 1:
+        return [text]
+    else:
+        perms = []
+        for i in range(len(text)):
+            for perm in permute(text[0:i]+text[i+1:]):
+                perms.append(text[i]+perm)
+        return perms
+print(permute('ABC'))
+
+
+#Recursion Palindome
+def is_palindrome(txt, start, end):
+    if start >= end:
+        return True
+    else:
+        return txt[start] == txt[end] and is_palindrome(txt, start+1, end-1)
+print(is_palindrome('racecar', 0, 5))
+
+#Recursion mazeTraverse

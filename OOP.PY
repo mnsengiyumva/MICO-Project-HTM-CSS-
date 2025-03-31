@@ -87,4 +87,48 @@ def binary_search(lst, key, lo, hi):
         else:
             return binary_search(lst, key, mid+1, hi)
 print(binary_search([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 6, 0, 9))
+
+# Linear search
+def linear_search(c, key):
+    for i in c:
+        if i == key:
+            return True
+        else:
+            return False
+print(linear_search([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 6))
+print(linear_search({'Mico': 10, 'Kevin':30}, 'Kevin'))
+
+class PhoneRecord:
+    def __init__(self, name, number):
+        self.name = name
+        self.number = number
+    def __str__(self):
+        return "str" + self.name + ":" + str(self.number)
+    def __repr__(self):
+        return "repr" + self.name + ":" + str(self.number)
+    def __eq__(self, other):
+        return self.name == other.name and self.number == other.number
+    def __lt__(self, other):
+        return self.name < self.other or self.name == other.name and self.number < other.number
+    
+phone_book = [PhoneRecord('Norm', 123), PhoneRecord('Min', 535), PhoneRecord('Bii', 767)]
+
+print(linear_search(phone_book, PhoneRecord('Norm', 123)))
+print(phone_book)
+print(phone_book[0])
+
+## LIST COMPLEHENSION CAN DO MATCHES
+
+matches = [record for record in phone_book if record.name == 'Norm']
+print(matches)
+
+import bisect
+def my_key(record):
+    return record.name
+phone_book.sort(key = my_key)
+print(phone_book)
+nums = range(100)
+idx = bisect.bisect_left(nums, 50)
+print(idx)      
+
         

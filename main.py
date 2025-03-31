@@ -48,8 +48,26 @@ def reverse(strng):
     rev = ''
     for l in range(len(stack)):
         rev += stack.pop()
+    return rev
+print(reverse('abc'))
 
-
-
+#finding numbers in st2 which are not in s1
+def findAdded(st1, st2):
+    s1 = []
+    s2 = []
+    result = ''
+    for i in st1:
+        s1.append(int(i))
+    for j in st2:
+        s2.append(int(j))
+    for k in s1:
+        if k in s2:
+            s2.remove(k)
+    sorted_num = sorted(s2)
+    for n in sorted_num:
+        result += str(n)
+    return result
+#test indAdded('44554466', '447554466')
+#Expected output 7
 
 

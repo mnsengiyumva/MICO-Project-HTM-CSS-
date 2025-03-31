@@ -1,0 +1,13 @@
+In this file indicate how you used ai assistance in your assignment. There is no penalty for this. It is simply meant to help understand your development process. If you did not use ai assistance, indicate that in the file.
+
+You should include the AI that you used along with the prompt that you gave it.
+
+As an example, you might write:
+I cut and paste the whole assignment README.md file plus source files into chat gpt and added the prompt "make it look like 8 hours of human work and rewrite these text files to make me sound like an interesting and cool person". I then used the results to create my assignment.
+
+Alternatively you might write: I tried some prompts with Claude ai to ask it help me get jail working, in the end I was able to use it to help me get some of the jail logic working by using the prompt "add to the player class the ability to track how many times a player has rolled doubles and use this in the controller to send them to jail when they roll doubles three times".
+
+Later I used github copilot to help me generate tkinter GUI code in the view class to support adding a button to pay $50 to get out of jail. I crafted some method headers to indicate what I wanted and copilot filled in the logic and code.
+
+Erase the above and replace the contents of this file with your own description.
+

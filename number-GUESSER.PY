@@ -78,7 +78,7 @@ class Alphabet:
     #setting value
     def set_value(self, value):
         print('Setting new value to value' + value)
-        return self._value
+        self._value = value
     #Delete a vealue
     def delete_value(self, value):
         print('Deleting value' + value)

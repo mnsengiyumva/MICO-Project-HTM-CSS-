@@ -75,6 +75,16 @@ def palindrome(text):
         return 'Not a Palindrome'
 # print(palindrome('racecaRy'))
 
-def parenthesis_matcher(st):
-    for bracket in st:
+# Binary search
+
+def binary_search(lst, key, lo, hi):
+    if hi>=lo:
+        mid = (hi+lo)//2
+        if lst[mid] == key:
+            return True
+        elif key<lst[mid]:
+            return binary_search(lst, key, lo, mid-1)
+        else:
+            return binary_search(lst, key, mid+1, hi)
+print(binary_search([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 6, 0, 9))
         

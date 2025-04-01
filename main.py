@@ -89,5 +89,22 @@ def is_isogram(st):
 
     else:
         return False
+    
+#Counting sentence
 
 print(is_isogram("Isogram"))
+
+import  string
+letters = string.ascii_letters
+dig = string.digits
+lower = [x for x in letters[:26]]
+upper = [y for y in letters[26:]]
+digi = [n for n in dig]
+su = 0
+for l in s:
+    if l in lower:
+        su += lower.index(l)+1
+    if l in upper:
+        su += (upper.index(l)+1)*2
+    if l in dig:
+        su+= digi.index(l)

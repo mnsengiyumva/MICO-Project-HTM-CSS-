@@ -71,3 +71,23 @@ def findAdded(st1, st2):
 #Expected output 7
 
 
+def is_isogram(st):
+
+    if len(st) !=0:
+        text = ''
+        result = []
+        for i in str(st):
+            if i.isalpha():
+                text += i
+        for i in text.lower():
+            if i not in result:
+                result.append(i)
+        if len(result) == len(text) or len(text)%len(result)==0:
+            return True
+        else:
+            return False
+
+    else:
+        return False
+
+print(is_isogram("Isogram"))

@@ -120,3 +120,12 @@ def decimal_binary(num):
     return s
 print(decimal_binary(233))
 
+
+
+#Fibonacci
+def fibonacci(n):
+    arr = [0,1]
+    for i in range(n):
+        arr.append(arr[i]+arr[i+1])
+    return arr
+print(fibonacci(8))

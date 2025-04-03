@@ -129,3 +129,38 @@ def fibonacci(n):
         arr.append(arr[i]+arr[i+1])
     return arr
 print(fibonacci(8))
+
+#Cuboid class
+
+class Cuboid:
+    def __init__(self, length, width, height):
+        self.__length = length
+        self.__width = width
+        self.__height = height
+    def set_length(self):
+        self.__length = length
+    def get_length(self):
+        return self.__length
+    def set_height(self):
+        self.__height = height
+    def get_height(self):
+        return self.__height
+    def set_width(self):
+        self.__width = width
+    def get_width(self):
+        return self.__width
+    def volume(self):
+        return round(self.__length*self.__height*self.__width, 4)
+    def __str__(self):
+        return (f"Cuboid with length {self.__length}, height {self.__height},"
+                f" width {self.__width} has vulume {self.volume()} cubic unit")
+class Cube(Cuboid):
+    def __init(self):
+        super().__init__(length, width)
+        self.__name = name
+cuboid1 = Cuboid(3,4,6)
+cube1 = Cube(4,5, 8)
+
+print(cuboid1.volume())
+print(cuboid1.__str__())
+print(cube1.get_width())

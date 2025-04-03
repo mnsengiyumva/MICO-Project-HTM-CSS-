@@ -173,3 +173,17 @@ if __name__ == "__main__":
     main()
 print()
 
+
+# calendar and turtle generation
+import calendar
+year = 2025
+month = 1
+print(calendar.month(year, month))
+#Drawing a turtle using the turtle method
+import turtle
+window = turtle.Screen()
+drawer = turtle.Turtle()
+for i in range(20):
+    drawer.forward(250)
+    drawer.right(250)
+

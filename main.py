@@ -187,3 +187,19 @@ for i in range(20):
     drawer.forward(250)
     drawer.right(250)
 
+#Password creation
+
+def create_password(password_length = 10):
+    letters = string.ascii_letters
+    digit = string.digits
+    specil_characters = string.punctuation
+    alphabet = letters + digit +specil_characters
+    pwd = ''
+    pw_strong = False
+    while not pw_strong:
+        for i in range(password_length):
+            pwd  += ''.join(secrets.choice(alphabet))
+        if (any(char in specil_characters for char in pwd)) and sum(char in digits for char in pwd) >=2:
+            pw_strong = True
+    print(pwd)
+

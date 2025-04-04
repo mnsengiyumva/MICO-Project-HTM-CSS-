@@ -203,3 +203,29 @@ def create_password(password_length = 10):
             pw_strong = True
     print(pwd)
 
+#Implementing class shape
+class Shape:
+    def area(self):
+        pass
+class Rectangle(Shape):
+    def __init__(self, length, height):
+        self.length = length
+        self.height = height
+    def area(self):
+        return self.length*self.height
+    def __str__(self):
+        return f"The area of rectancle with length {self.length} and heigt {self.height} is {self.length*self.height} square meters"
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+    def area(self):
+        return math.ceil(self.radius**2*math.pi)
+    def __str__(self):
+        return f"The area of the circle with radius {self.radius} is {math.ceil(self.radius**2*math.pi)} square meters"
+r1 = Rectangle(3,4)
+print(r1.area())
+print(r1.__str__())
+c1 = Circle(4)
+print(c1.area())
+print(c1.__str__())
+

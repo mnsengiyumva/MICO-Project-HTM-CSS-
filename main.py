@@ -229,3 +229,18 @@ c1 = Circle(4)
 print(c1.area())
 print(c1.__str__())
 
+
+# Counting zeros between 1 and N
+
+def count_zeros(n):
+    nums = []
+    count = 0
+    for i in range(n+1):
+        nums.append(str(i))
+    for j in nums:
+        if len(j)>1:
+            for num in j:
+                if int(num) == 0:
+                    count+=1
+    return count
+

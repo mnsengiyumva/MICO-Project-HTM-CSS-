@@ -261,3 +261,25 @@ class Square:
         return self.length * self.width
 shape1 = Circle(10)
 
+#Stack operations
+
+class MyStack:
+    def __init__(self):
+        self.q = deque()
+    def add(self):
+        self.q.append()
+    def poping(self):
+        if len(self.q) > 0:
+            self.q.pop()
+        else:
+            raise 'The deque you are poping is empty'
+    def is_empty(self):
+        if len(self.q) == 0:
+            return 'Empty'
+        else:
+            raise ValueError
+    def peek(self):
+        if self.q:
+            return self.q[-1]
+stk = MyStack()
+

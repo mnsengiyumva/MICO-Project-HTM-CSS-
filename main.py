@@ -244,3 +244,20 @@ def count_zeros(n):
                     count+=1
     return count
 
+
+#Calculate areas of different shapes
+import math
+
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+    def area(self):
+        return self.radius**2 * math.pi*2
+class Square:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+    def area(self):
+        return self.length * self.width
+shape1 = Circle(10)
+

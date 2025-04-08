@@ -283,3 +283,18 @@ class MyStack:
             return self.q[-1]
 stk = MyStack()
 
+# checking if it is ascii letter
+def is_letter(s):
+    lett = []
+    import string
+    letters = string.ascii_letters
+    for l in letters:
+        lett.append(l)
+    if len(s) == 1:
+        if s in letters:
+            return True
+        else:
+            return False
+    else:
+        return False
+

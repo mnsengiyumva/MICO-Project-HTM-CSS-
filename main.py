@@ -315,4 +315,18 @@ while True:
     except ValueError:
         print('Pleaser enter a valid number')
 
+#Hailstone sequence using recursion
+def hailstone_sequence(n):
+    if n == 1:
+        return
+    elif n%2 == 0:
+        print(int(n/2), end=' ')
+        hailstone_sequence(n/2)
+    else:
+        print(int(n*3+1), end=' ')
+        hailstone_sequence(3*n+1)
+n = int(input('Enter a number: '))
+print(int(n), end=' ')
+hailstone_sequence(6)
+
 

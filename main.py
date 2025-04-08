@@ -298,3 +298,21 @@ def is_letter(s):
     else:
         return False
 
+# Using random method
+import random
+number = random.randint(1, 100)
+while True:
+    try:
+
+        guess = int(input('Guess the number between 1 and 100: '))
+        if guess < number:
+            print('too low')
+        elif guess > number:
+            print('too high')
+        elif guess == number:
+            print('Correct guess')
+
+    except ValueError:
+        print('Pleaser enter a valid number')
+
+

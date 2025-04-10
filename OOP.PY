@@ -129,6 +129,17 @@ phone_book.sort(key = my_key)
 print(phone_book)
 nums = range(100)
 idx = bisect.bisect_left(nums, 50)
-print(idx)      
+print(idx)  
+
+#sorting by energy
+players = ['sam', 'bill', 'tom']
+energy = [80,70,100]
+position = [3,1,2]
+def sort_players(players, energy, position):
+    zip_lst = list(zip(players, energy, position))
+    zip_lst.sort(key = lambda x:x[1], reverse=True)
+    return [list(x) for x in zip(*zip_lst)]
+p,n,e = sort_players(players,energy,position)
+print(p,n,e)
 
         

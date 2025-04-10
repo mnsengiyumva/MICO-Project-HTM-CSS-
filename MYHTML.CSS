@@ -2,19 +2,15 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.section1{
-    color: white;
 
-    
-}
 .nav1{
     display: flex;
     background-color: red;
     padding: 10px;
+    color: white;
 }
 .menu{
     margin-right: 16px;
-
     
 }
 .tim{
@@ -25,7 +21,7 @@ body{
 }
 
 .cat{
-    margin-right: 60px;
+    margin-right: 20px;
 
 }
 .shop{
@@ -36,18 +32,22 @@ body{
     margin-right: 60px;
 
 }
+.points{
+    margin-right: 30px;
+}
 .th{
     margin-right: 70px;
     margin-left: 60px;
     font-style: italic;
     font-size: 18px;
+    margin-top: 20px;
 
 }
 
 
 
 
-.boxes{
+.section2{
     display: flex;
     align-content: center;
     margin-left: 200px;
@@ -57,7 +57,7 @@ body{
 h2{
     font-size: 31px;
 }
-.box1{
+.sec2_1{
     width: 50%;
     margin-right: 100px;
     height: 170px;
@@ -150,6 +150,7 @@ a:hover::after{
     background-color: rgb(204, 201, 201);
     padding-left: 50px;
     font-weight: bolder;
+    color: ;
     
 }
 .info{
@@ -166,7 +167,7 @@ a:hover::after{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.s2{
+.last1{
     display: flex;
     padding-top: 20px;
     background-color: rgb(204, 201, 201);
@@ -188,11 +189,13 @@ a:hover::after{
 
 }
 .section3{
+    display: flex;
     margin-left: px;
     background-color: rgb(243, 240, 237);
     padding-bottom: 20px;
     padding-left: 200px;
     border-bottom: 0.01px solid ;
+    margin-top: 30px;
 }
 .h2{
     margin-left: 220px;
@@ -202,13 +205,16 @@ a:hover::after{
     margin-top: 70px;
     font-size: x-large;
 }
+
 .s3p1{
     font-weight: bold;
+    padding-bottom: 10px;
+
 
 
 }
 .more{
-    margin-top: 40px;
+    margin-top: 60px;
     font-weight: bolder;
     border: 20px;
     color: white;
@@ -218,6 +224,16 @@ a:hover::after{
     border-radius: 15px;
     font-size: x-large;
 
+}
+.s3p3{
+
+    margin-left: 60px;
+    border: 0.005px black solid;
+    border-radius: 0%;
+    animation: infinite;
+}
+img{
+    animation: infinite;
 }
 .last{
     display: flex;

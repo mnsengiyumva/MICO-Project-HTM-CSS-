@@ -182,3 +182,13 @@ def solve(arr):
         final.append(i)
     
     return final
+
+#counting douplicates
+def duplicate_count(text):
+    txt = text.lower()
+    result = []
+    for i in txt:
+        if txt.count(i)>1:
+            result.append(i)
+    return len(result)
+print(duplicate_count('abc'))

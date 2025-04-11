@@ -142,4 +142,27 @@ def sort_players(players, energy, position):
 p,n,e = sort_players(players,energy,position)
 print(p,n,e)
 
+
+# Given an x and y find the smallest and greatest numbers above and below a given n that are divisible by both x and y
+def greatest(x, y, n):
+    result = []
+    for i in range(n):
+        if i%x == 0 and i%y == 0:
+            result.append(i)
+    if len(result)>0:
+        result.sort()
+        return result[-1]
+    else:
+        return 0
+def smallest(x,y,n):
+    result2 = []
+    for i in range(n+1,x*y*n+1):
+        if i%x ==0  and i%y == 0:
+            result2.append(i)
+    if len(result2) >0:
+        result2.sort()
+        return result2[0]
+    else:
+        return 0
+
         

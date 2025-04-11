@@ -164,5 +164,21 @@ def smallest(x,y,n):
         return result2[0]
     else:
         return 0
+#Special sorting
 
-        
+from collections import deque
+def solve(arr):
+    dq = deque()
+    result = deque()
+    lst = sorted(arr)
+    final = []
+    for i in lst:
+        dq.append(i)
+    while len(dq)>0:
+        result.append(dq.pop())
+        if dq:
+            result.append(dq.popleft())
+    for i in result:
+        final.append(i)
+    
+    return final

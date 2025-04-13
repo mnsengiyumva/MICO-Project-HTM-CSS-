@@ -192,3 +192,19 @@ def duplicate_count(text):
             result.append(i)
     return len(result)
 print(duplicate_count('abc'))
+
+## String reduction
+
+def solve(a,b):
+    if len(b)>len(a):
+        return 0
+    else:
+        for i in a:
+            for j in b:
+                if b.count(j)>a.count(i):
+                    return 0
+                elif b.count(j)<=a.count(i) and i==j and j in a:
+                    return len(a)-len(b)
+                elif b.count(j)==a.count(i)==1 and i==j and j in a:
+                    return len(a)-len(b)
+#testCase: solve(abcd,cd) ===> 2

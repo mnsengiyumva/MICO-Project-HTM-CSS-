@@ -208,3 +208,32 @@ def solve(a,b):
                 elif b.count(j)==a.count(i)==1 and i==j and j in a:
                     return len(a)-len(b)
 #testCase: solve(abcd,cd) ===> 2
+
+
+#Reverse with stack
+from collections import deque
+class Stack:
+    def __init__(self):
+        self.dq = deque()
+        '''Represente a queue'''
+    def push(self, x):
+        self.dq.append(x)
+    def pop(self):
+        if self.dq:
+            return self.dq.pop()
+    def peek(self):
+        if self.dq:
+            return self.dq[-1]
+    def isEmpty(self):
+        return len(self.dq) == 0
+    def __len__(self):
+        return len(self.dq)
+def reverse_string(string):
+    stack = Stack()
+    for char in string:
+        stack.push(char)
+    reverse = ''
+    while len(stack)>0:
+        reverse+= stack.pop()
+    return reverse
+print(reverse_string('ABC'))

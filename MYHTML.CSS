@@ -110,15 +110,24 @@ h2{
     border-color: white;
 }
 .sec4{
+    display: flex;
     background-color: antiquewhite;
+    width: 10%;
 }
 .sec4div1{
     margin-top: 30px;
     margin-left: 80px;
     margin-right: 52.7%;
-    border: 1px rgb(213, 206, 206) solid;
+
     border-radius: 20px;
     background-color: white;
+}
+.sec4div2{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 40%;
+
+
 }
 .im4{
     margin-top: 5px;

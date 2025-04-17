@@ -71,7 +71,7 @@ h2{
     display: flex;
 }
 
-img{
+.sec2_2{
     width: 90%;
     height: 400px;
     border-radius: 201px;
@@ -91,6 +91,10 @@ img{
     padding-left: 10px;
     
 }
+.tapp{
+    margin-left: 1400px;
+    font-weight: ;
+}
 
 .section3{
     margin-left: 80px;
@@ -104,6 +108,25 @@ img{
     border-radius: 30px;
     background-image: url(tim-hortons-2018-1.jpg);
     border-color: white;
+}
+.sec4{
+    background-color: antiquewhite;
+}
+.sec4div1{
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 52.7%;
+    border: 1px rgb(213, 206, 206) solid;
+    border-radius: 20px;
+    background-color: white;
+}
+.im4{
+    margin-top: 5px;
+    height: 370px;
+    width: 650px;
+    image-orientation: from-image;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
  a,

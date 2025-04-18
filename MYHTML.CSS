@@ -106,26 +106,37 @@ h2{
     color: white;
     border: 0.5px black solid;
     border-radius: 30px;
-    background-image: url(tim-hortons-2018-1.jpg);
+    background-image: url(nature.jpg.jpg);
     border-color: white;
 }
 .sec4{
+    margin-top: 30px;
     display: flex;
+    width: 100%;
     background-color: antiquewhite;
-    width: 10%;
 }
 .sec4div1{
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 80px;
-    margin-right: 52.7%;
-
-    border-radius: 20px;
+    margin-right: 20px;
     background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 15px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
 }
 .sec4div2{
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 40%;
+    margin-top: 15px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 15px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
 
 
 }
@@ -133,7 +144,6 @@ h2{
     margin-top: 5px;
     height: 370px;
     width: 650px;
-    image-orientation: from-image;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }

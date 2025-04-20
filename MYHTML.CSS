@@ -147,6 +147,45 @@ h2{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
+.sec5{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.sec5div1{
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-right: 20px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 15px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.sec5div2{
+    margin-top: 15px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 15px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+
+
+}
+.im5{
+    margin-top: 5px;
+    height: 370px;
+    width: 650px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
 
  a,
  *::before

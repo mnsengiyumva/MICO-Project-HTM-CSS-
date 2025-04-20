@@ -177,6 +177,7 @@ h2{
 
 
 
+
 }
 .im5{
     margin-top: 5px;
@@ -184,6 +185,23 @@ h2{
     width: 650px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+}
+.sec6{
+    background-color: rgb(78, 23, 23);
+    border: 1px color(srgb red green blue);
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 445px;
+    display: flex;
+    
+    
+}
+.sec6div1{
+}
+.im6{
+    height: 500px;
+    margin-left: 20px;
 }
 
 

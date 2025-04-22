@@ -200,10 +200,11 @@ h2{
     background-color: rgb(78, 23, 23);
     border: 1px color(srgb red green blue);
     border-radius: 20px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-right: 50px;
     height: 445px;
     display: flex;
+    margin-right: 100px;
     
     
 }
@@ -311,6 +312,7 @@ a:hover::after{
     background-color: rgb(204, 201, 201);
     font-weight: bolder;
     padding-bottom: 20px;
+    align-items: center;
 }
 .diva{
     margin-left: 50px;
@@ -373,3 +375,4 @@ a:hover::after{
 .l1{
     margin-right:765px;
 }
+

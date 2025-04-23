@@ -131,7 +131,7 @@ h2{
     background-color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin-bottom: 15px;
+
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 
@@ -141,7 +141,8 @@ h2{
     background-color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin-bottom: 15px;
+    padding-bottom: 20px;
+
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 
@@ -216,6 +217,22 @@ h2{
 .im6{
     height: 500px;
     margin-left: 20px;
+}
+.shopnow{
+    margin-left: 260px;
+    padding-bottom: 20px;
+    border: rgb(214, 31, 31) solid 1px;
+    border-radius: 20px;
+    size: 10px;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    padding-top: 10px;
+    font-size: larger;
+    text-decoration: none;
+
+
+    font-weight: bold;
 }
 
 

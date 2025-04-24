@@ -222,12 +222,14 @@ h2{
     margin-left: 260px;
     padding-bottom: 20px;
     border: rgb(214, 31, 31) solid 1px;
-    border-radius: 20px;
+    border-radius: 30px;
     size: 10px;
-    color: white;
-    background-color: red;
-    padding: 20px;
+    color: red;
+    background-color: white;
+    padding-left: 20px;
     padding-top: 10px;
+    padding-right: 18px;
+    padding-bottom: 15px;
     font-size: larger;
     text-decoration: none;
 
@@ -236,13 +238,7 @@ h2{
 }
 
 
- a,
- *::before
- a::after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
- }
+
  a{
     position: relative;
     text-decoration: none;
@@ -258,12 +254,13 @@ a::after{
     width: 0%;
     left: 0;
     bottom: -0.5px;
-    transition: 0s;
+    transition: 0.5s;
 
 
 }
 a:hover::after{
     width: 100%;
+    
 
 }
 

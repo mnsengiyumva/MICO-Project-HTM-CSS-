@@ -4,13 +4,40 @@ body{
 }
 
 .section1{
-    display: flex;
-    background-color: rgb(237, 16, 16);
-    padding: 10px;
+    background-color: rgb(203, 46, 46);
+    padding: 20px;
     color: white;
+    font-size: larger;
+    border-radius: 10px;
+
+    
+}
+.sec1div1{
+    display: flex;
+    color: red;
+}
+.sec1div2{
+
+}
+.Log{
+    margin-left: 600px;
+    padding-bottom: 20px;
+    border: rgb(187, 56, 56) solid 1px;
+    border-radius: 30px;
+    color: red;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 18px;
+    padding-bottom: 15px;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: bold;
+
 }
 .menu{
     margin-right: 16px;
+    color: white;
 
     
 }
@@ -240,9 +267,8 @@ h2{
  a{
     position: relative;
     text-decoration: none;
-    color: rgb(80, 51, 53);
     letter-spacing: 0.5px;
-    padding: 0 px;
+    color: rgb(101, 63, 63);
  }
 a::after{
     content: "";
@@ -253,6 +279,7 @@ a::after{
     left: 0;
     bottom: -0.5px;
     transition: 0.5s;
+    color: black;
 
 
 }

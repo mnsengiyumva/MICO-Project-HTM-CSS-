@@ -100,7 +100,7 @@ h2{
 }
 .bisec{
     background-color: antiquewhite;
-    align-items: center;
+    padding-left: 20px;
     
 
 }
@@ -161,15 +161,15 @@ h2{
     display: flex;
     width: 100%;
     background-color: antiquewhite;
+    padding-bottom: 50px;
 }
 .sec5div1{
     margin-top: 15px;
     margin-left: 80px;
-    margin-right: 20px;
+    margin-right: 20px;    
     background-color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin-bottom: 15px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 
@@ -179,7 +179,7 @@ h2{
     background-color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin-bottom: 15px;
+
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 
@@ -232,8 +232,6 @@ h2{
     padding-bottom: 15px;
     font-size: larger;
     text-decoration: none;
-
-
     font-weight: bold;
 }
 

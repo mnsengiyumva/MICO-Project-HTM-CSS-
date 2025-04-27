@@ -230,9 +230,10 @@ h2{
     border-radius: 20px;
     margin-left: 100px;
     margin-right: 50px;
-    height: 445px;
+    height: 440px;
     display: flex;
     margin-right: 100px;
+    padding-bottom: 40px;
     
     
 }
@@ -242,7 +243,7 @@ h2{
 }
 
 .im6{
-    height: 500px;
+    height: 600px;
     margin-left: 20px;
 }
 .shopnow{
@@ -318,7 +319,19 @@ a:hover::after{
 
     
 }
-
+.applehplay{
+    display: flex;
+}
+.apple{
+    border-radius: 20px;
+    margin-bottom: 2px;
+    margin-right: 20px;
+}
+.gplay{
+    margin-top: 0px;
+    border-radius: 20px;
+    padding: 20px;
+}
 
 
 

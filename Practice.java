@@ -2,6 +2,10 @@
 import java.util.ArrayList;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.Scanner;
+
 
 public class Practice {
 
@@ -28,6 +32,27 @@ public class Practice {
             System.out.println("An Error occured");
             e.printStackTrace();
         }
+        // file reading
+        try{
+            FileReader myObj = new FileReader("myjavafile.txt");
+            Scanner myReader = new Scanner(myObj);
+            while (myReader.hasNextLine()) {
+                String data = myReader.nextLine();
+                System.out.println(data);
+
+                
+            }
+            myReader.close();
+        } catch (FileNotFoundException e){
+            System.out.println("An error occurred");
+            e.printStackTrace();
+
+        }
+        
+
+
+
+
 
 
 

@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
+import java.io.File;
 
 
 public class Practice {
@@ -48,17 +49,17 @@ public class Practice {
             e.printStackTrace();
 
         }
-        
 
 
+        // Delete file
 
 
+        File myFile = new File("myjavafile.txt");
+        if (myFile.delete()){
+            System.out.println("Deleted the file: "+myFile.getName());
 
-
-
-
-
-
-
+        }else{
+            System.out.println("Failed to delete the file");
+        }
     }
 }

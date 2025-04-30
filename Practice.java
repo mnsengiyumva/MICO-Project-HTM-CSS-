@@ -61,5 +61,29 @@ public class Practice {
         }else{
             System.out.println("Failed to delete the file");
         }
+
+
+        // counting words
+
+
+        String words = "this is thejava programming language";
+        int countWords = words.split("\\s").length;
+        System.out.println(countWords);
+
+        // Reverse a string
+
+    String orginal = "Hello World!";
+    String reverse = "";
+
+    System.out.println("Orginal String: "+orginal);
+
+    for (int i = 0;i<orginal.length(); i++){
+        reverse = orginal.charAt(i)+reverse;
+        
     }
+    System.out.println("Reversed string: "+reverse);
+
+    }
+
+    
 }

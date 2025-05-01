@@ -83,7 +83,32 @@ public class Practice {
     }
     System.out.println("Reversed string: "+reverse);
 
+
+    // sum in array
+
+    int [] myArray = {1, 2, 4, 6, 8};
+
+    int sum = 0;
+    for(int i = 0; i<myArray.length;i++){
+        sum += myArray[i];
     }
+    System.out.println(sum);
+
+    // String to char array
+
+    String myWord = "Hello";
+    char [] myArr = myWord.toCharArray();
+    System.out.println(myArr[0]);
+
+    for (char i:myArr){
+        System.out.println(i);
+    }
+
+
+    }
+
+
+    
 
     
 }

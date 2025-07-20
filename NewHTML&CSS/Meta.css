@@ -2,6 +2,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.s1{
+    background-image: url(../HTML&CSS/nature.jpg.jpg);
+
+    padding-bottom: 200px;
+    
+
+}
+
 .menu{
     
     display: flex;
@@ -10,6 +18,7 @@ body{
 }
 .menu1{
     display: flex;
+    
 }
 
 .menu2{
@@ -19,26 +28,90 @@ body{
 }
 .met{
     padding-right: 20px;
+    text-decoration: none;
+    color: white;
 }
 .glass{
-    padding-right: 20px
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
 }
-.metquest{
-    
-}
+
 .explore{
-    padding-right: 20px
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
 }
 
 .support{
     padding-right: 20px;
+    text-decoration: none;
+    color: white;
 }
 
 .search{
-    padding-right:20px
+    padding-right:20px;
+    text-decoration: none;
+    color: white;
 }
 
 .location{
     padding-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.metquest{
+    text-decoration: none;
+    color: white;
 }
 
+.cart{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+.login{
+    text-decoration: none;
+    color: white;
+
+}
+
+.intro{
+    text-align: center;
+    color: white;
+}
+
+.more{
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.more1{
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 20px;
+    border-radius: 30px;
+  
+    background-color: rgb(73, 73, 242);
+    text-decoration: none;
+    color: white;
+
+}
+
+.more2{
+ 
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    margin-right: 20px;
+
+    
+    background-color: azure;
+    text-decoration: none;
+    color: black;
+
+}

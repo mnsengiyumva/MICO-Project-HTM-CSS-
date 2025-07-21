@@ -22,41 +22,41 @@ body{
 }
 
 .menu2{
-    margin-left:500px;
+    margin-left:600px;
     display: flex;
    
 }
 .met{
-    padding-right: 20px;
+    padding-right: 30px;
     text-decoration: none;
     color: white;
 }
 .glass{
-    padding-right: 20px;
+    padding-right: 30px;
     text-decoration: none;
     color: white;
 }
 
 .explore{
-    padding-right: 20px;
+    padding-right: 30px;
     text-decoration: none;
     color: white;
 }
 
 .support{
-    padding-right: 20px;
+    padding-right: 30px;
     text-decoration: none;
     color: white;
 }
 
 .search{
-    padding-right:20px;
+    padding-right:30px;
     text-decoration: none;
     color: white;
 }
 
 .location{
-    padding-right: 20px;
+    padding-right: 30px;
     text-decoration: none;
     color: white;
 }
@@ -79,6 +79,7 @@ body{
 .intro{
     text-align: center;
     color: white;
+    margin-top:80px;
 }
 
 .more{

@@ -1,33 +1,17 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Helvetica, Arial, sans-serif;
 }
 
-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 20px;
-  object-fit: scale-down;
-  
-  
-}
-.video video {
-  position: fixed;
-  
-  
 
-  min-width:100%;
-  min-height: 500px;
-  object-fit: cover;
-  z-index: -1;
-  margin-bottom: 20px;
-}
 
 .s1{
     
 
     padding-bottom: 200px;
+    color: white;
+    background-image: url(../HTML&CSS/nature.jpg.jpg);
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
     
 
 }
@@ -138,3 +122,88 @@ video {
     color: black;
 
 }
+
+.s2{
+    margin-top: 50px;
+
+    display:flex;
+    justify-content: center;
+
+}
+.sec2div1{
+
+    border-radius: 20px;
+    padding: 80px;
+    padding-top: 155px;
+    padding-right: 200px;
+    
+    justify-content: center;
+    margin-right:80px;
+    font-size: larger;
+    text-align: center;
+    background-image: url(Images/glasseslens.jpg);
+    color: white;
+    
+    
+}
+
+.tryon{
+    background-color:rgb(47, 91, 204) ;
+    text-decoration:none;
+    color:white;
+    padding: 13px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.shopall{
+    background-color:rgb(243, 244, 245) ;
+    text-decoration:none;
+    color:rgb(10, 9, 9);
+    padding: 13px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    margin-left: 20px;
+
+}
+.sec2div2{
+    
+    border-radius:30px;
+    padding: 100px;
+    justify-content: center;
+    font-size: larger;
+    text-align: center;
+    background-image:;
+    color: white;
+
+    background-image:url(Images/glasses.jpg) ;
+   
+
+}
+
+.sec2div1_1{
+    margin-top: 50px;
+
+    text-align: center;
+    
+}
+
+.sec2div2 h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.shoptransitions{
+    margin-top: 70px;
+    background-color: rgb(47, 91, 204);
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    padding: 13px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+

@@ -123,6 +123,15 @@ body{
 
 }
 
+.secondSec{
+
+    display: flex;
+    padding: 20px;
+    justify-content:center;
+
+}
+
+
 .s2{
     margin-top: 50px;
 

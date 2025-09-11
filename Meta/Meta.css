@@ -123,11 +123,97 @@ body{
 
 }
 
+.h3{
+    justify-content: center;
+    margin-left: 255px;
+    
+    padding: 30px;
+}
+
 .secondSec{
 
     display: flex;
-    padding: 20px;
-    justify-content:center;
+    justify-content: center;  
+
+}
+
+.aiglass{
+    margin-left: 100px;
+    margin-right: 45px;
+    background-color: rgb(234, 232, 232);
+    padding-right: 55px;
+    padding-left: 55px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.aiglass a{
+    text-decoration: none;
+
+}
+
+.mquest{
+    
+    margin-right: 50px;
+    background-color: rgb(234, 232, 232);
+    padding-right: 55px;
+    padding-left: 55px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    justify-content: center ;
+    
+}
+.qaccessories h4{
+    justify-content: center;
+    padding-left: 10px;
+
+}
+
+.mquest a{
+    text-decoration: none;
+    
+}
+
+.qaccessories{
+    
+    margin-right: 50px;
+    background-color: rgb(234, 232, 232);
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    justify-content: center;
+    
+}
+
+
+.qaccessories a{
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+
+.qapps{
+    
+    margin-right: 50px;
+    background-color: rgb(234, 232, 232);
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    justify-content: center;
+    
+}
+
+
+.qapps a{
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+.qapps h4{
+    justify-content: center;
+    padding-left: 10px;
 
 }
 

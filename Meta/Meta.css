@@ -306,28 +306,41 @@ body{
 
 .getnews{
     display: flex;
+    margin-top: 100px;
 }
 .getnews p{
     margin-right: 150px;
     margin-left: 40px;
+    color: rgb(103, 101, 101);
+    margin-top: 30px;
 }
 
-.email{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 500px;
-    border-radius: 10px;
+
+.mail{
+    border-radius: 12px;
+    margin-top:20px;
+    padding: 20px;
+    padding-right: 700px;
+    border: 1px solid rgb(160, 191, 197);
+    
     
 }
 
 .signup{
-    margin-left: 100px;
-    border: 1px solid;
-    
-    
-   
-}
-.signup a{
     text-decoration: none;
+    margin-top: 25px;
+    border: 1px solid lightgrey;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-top: 15px;
+    border-radius: 27px;
+    color: rgb(126, 125, 125);
+    margin-left: 50px;
 
+}
+
+.terms{
+    font-size: small;
+    margin-left: 322px;
+    color: rgb(82, 81, 81);
 }

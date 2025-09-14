@@ -304,3 +304,21 @@ body{
     padding-left: 20px;
 }
 
+.getnews{
+    display: flex;
+}
+.getnews p{
+    margin-right: 150px;
+}
+
+.email{
+    padding: 20px;
+}
+
+.signup{
+    margin-left: 700px;
+}
+.signup a{
+    text-decoration: none;
+
+}

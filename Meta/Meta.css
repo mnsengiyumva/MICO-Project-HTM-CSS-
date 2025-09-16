@@ -310,8 +310,8 @@ body{
 }
 .getnews p{
     margin-right: 150px;
-    margin-left: 40px;
-    color: rgb(103, 101, 101);
+    margin-left: 30px;
+    color: rgb(83, 82, 82);
     margin-top: 30px;
 }
 
@@ -335,7 +335,7 @@ body{
     padding-top: 15px;
     border-radius: 27px;
     color: rgb(126, 125, 125);
-    margin-left: 50px;
+    margin-left: 40px;
     font-weight: bold;
 
 }
@@ -349,9 +349,36 @@ body{
 }
 
 .terms a{
-    color: rgb(4, 180, 238);
+    color: rgb(22, 81, 231);
 }
 .line{
     margin-top: 100px;
     border-bottom: 1px solid lightgrey;
+}
+
+
+.lastSection{
+    display: flex;
+    margin-top: 50px;
+}
+
+.lastsec1{
+    margin-left: 200px;
+    font-size: small;
+    color: rgb(82, 81, 81);
+}
+.lastsec1 h3{
+    font-weight: lighter;
+
+}
+
+.lastsec1 a{
+    color: rgb(43, 91, 210);
+    
+}
+.language{
+    color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+   
 }

@@ -357,9 +357,39 @@ body{
 }
 
 
+.bottommenu{
+    display: flex;
+    margin-left: 400px;
+    
+    
+}
+.bottommenu h4{
+    font-weight: bold;
+    font-size: medium;
+    
+}
+
+.metastoresupport{
+    margin-right: 200px;
+}
+
+.communityactions{
+    margin-right: 200px;
+}
+
+
+.bottomborder{
+    border-bottom: 1px solid lightgrey;
+    margin-top: 30px;
+}
+
+
+
+
 .lastSection{
     display: flex;
     margin-top: 50px;
+    
 }
 
 .lastsec1{

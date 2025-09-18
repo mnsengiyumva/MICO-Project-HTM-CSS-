@@ -360,17 +360,31 @@ body{
 .bottommenu{
     display: flex;
     margin-left: 400px;
+    font-size: small ;
     
     
 }
 .bottommenu h4{
     font-weight: bold;
-    font-size: medium;
+    font-size: small;
     
 }
 
 .metastoresupport{
     margin-right: 200px;
+}
+
+.metastore a{
+    text-decoration: none;
+    color: rgb(84, 83, 83);
+    
+    
+    
+}
+.storesupport a{
+    text-decoration: none;
+    color: rgb(84, 83, 83);
+
 }
 
 .communityactions{

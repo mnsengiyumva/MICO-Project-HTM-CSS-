@@ -391,10 +391,38 @@ body{
     margin-right: 200px;
 }
 
+.community a{
+    text-decoration: none;
+    color: rgb(84, 83, 83);
+}
+
+.actions a{
+    text-decoration: none;
+    color: rgb(84, 83, 83);
+}
+
+.aboutus a{
+    text-decoration: none;
+    color: rgb(84, 83, 83);
+}
+
+.siteterms a{
+    text-decoration: none;
+    color: rgb(84, 83, 83);
+}
+
+.appsupport a{
+    text-decoration: none;
+    color: rgb(84, 83, 83);
+}
 
 .bottomborder{
     border-bottom: 1px solid lightgrey;
     margin-top: 30px;
+}
+
+.bottommenu :hover a {
+    line
 }
 
 
@@ -425,4 +453,8 @@ body{
     margin-top: 20px;
     margin-left: 20px;
    
+}
+
+.bottommenu a:hover {
+    text-decoration: underline black;
 }

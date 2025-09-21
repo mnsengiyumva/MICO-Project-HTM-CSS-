@@ -22,13 +22,18 @@ body{
     font-weight: lighter;
   
 }
+
+.menu a:hover{
+    text-decoration: underline;
+    line-height: 1px ;
+}
 .menu1{
     display: flex;
     
 }
 
 .menu2{
-    margin-left:600px;
+    margin-left:400px;
     display: flex;
    
 }
@@ -70,6 +75,15 @@ body{
     text-decoration: none;
     color: white;
 }
+
+.apps{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+
+}
+
+
 
 .cart{
     text-decoration: none;

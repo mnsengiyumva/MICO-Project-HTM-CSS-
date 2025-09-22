@@ -26,7 +26,11 @@ body{
 .menu a:hover{
     text-decoration: underline;
     line-height: 1px ;
+    
 }
+
+
+
 .menu1{
     display: flex;
     
@@ -435,9 +439,7 @@ body{
     margin-top: 30px;
 }
 
-.bottommenu :hover a {
-    line
-}
+
 
 
 
@@ -470,5 +472,9 @@ body{
 }
 
 .bottommenu a:hover {
-    text-decoration: underline black;
+
+    text-decoration: underline rgb(104, 102, 102);
+   
+    
+    
 }

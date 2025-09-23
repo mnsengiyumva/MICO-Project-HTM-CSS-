@@ -2,6 +2,15 @@ body{
     font-family:Helvetica, Arial, sans-serif;
 }
 
+.header{
+    color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    
+}
 
 
 .s1{
@@ -9,9 +18,10 @@ body{
 
     padding-bottom: 200px;
     color: white;
-    background-image: url(Images/nature.jpg.jpg);
+    background-image: url(Images/vickglasses.jpg);
     border-top-left-radius:6px;
     border-top-right-radius:6px;
+    padding-top: 100px;
     
 
 }
@@ -20,7 +30,7 @@ body{
     
     display: flex;
     font-weight: lighter;
-  
+      
 }
 
 .menu a:hover{
@@ -44,45 +54,48 @@ body{
 .met{
     padding-right: 30px;
     text-decoration: none;
-    color: white;
+    color: rgb(11, 11, 11);
 }
 .glass{
     padding-right: 30px;
     text-decoration: none;
-    color: white;
+    text-decoration: none;
+    color: rgb(11, 11, 11);
 }
 
 .explore{
     padding-right: 30px;
     text-decoration: none;
-    color: white;
+    text-decoration: none;
+    color: rgb(11, 11, 11);
 }
 
 .support{
     padding-right: 30px;
     text-decoration: none;
-    color: white;
+    
+    color: rgb(11, 11, 11);
 }
 
 .search{
     padding-right:30px;
     text-decoration: none;
-    color: white;
+    color: rgb(11, 11, 11);
 }
 
 .location{
     padding-right: 30px;
     text-decoration: none;
-    color: white;
+    color: rgb(11, 11, 11);
 }
 .metquest{
     text-decoration: none;
-    color: white;
+    color: rgb(11, 11, 11);
 }
 
 .apps{
     text-decoration: none;
-    color: white;
+    color: rgb(11, 11, 11);
     margin-left: 30px;
 
 }
@@ -91,12 +104,12 @@ body{
 
 .cart{
     text-decoration: none;
-    color: white;
+    color: rgb(11, 11, 11);
     margin-right: 30px;
 }
 .login{
     text-decoration: none;
-    color: white;
+    color: rgb(11, 11, 11);
 
 }
 

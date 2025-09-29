@@ -261,6 +261,11 @@ body{
     
 }
 
+.whymeta{
+    display: flex;
+    gap: 30px;
+}
+
 
 
 

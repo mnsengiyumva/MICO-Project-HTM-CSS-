@@ -22,6 +22,7 @@ body{
     border-top-left-radius:6px;
     border-top-right-radius:6px;
     padding-top: 100px;
+    font-size: x-large;
     
 
 }
@@ -164,7 +165,8 @@ body{
 .secondSec{
 
     display: flex;
-    justify-content: center;  
+    justify-content: center;
+    font-size: x-large;  
 
 }
 
@@ -258,7 +260,7 @@ body{
     font-size: large;
     margin-left: 50px;
     margin-right: 50px;
-    
+    font-size: x-large;
 }
 
 
@@ -365,6 +367,7 @@ body{
     display:flex;
     justify-content: center;
     margin: 30px;
+    font-size: large;
    
 
 }
